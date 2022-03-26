@@ -4,6 +4,15 @@ This is a project to test the integration between Django Rest Framework and Cele
 
 This application receives a POST with an enumerated list with IDS of users, processes them and organizes them in an API in a database so that it can be retrieved at any time.
 
+### How to run the application
+```shell
+docker-compose up -d
+```
+And then, you can access the application at:
+```shell
+http://0.0.0.0:8000/
+```
+
 ### Organization logic of received IDs
 As the IDs are received every second, the logic goes like this:
 - The hour is divided into 4 parts, minutes 15, 30, 45 and 60

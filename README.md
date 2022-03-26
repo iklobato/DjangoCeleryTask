@@ -12,6 +12,9 @@ And then, you can access the application at:
 ```shell
 http://0.0.0.0:8000/
 ```
+Expected output
+- <img width="656" alt="Screen Shot 2022-03-25 at 23 54 15" src="https://user-images.githubusercontent.com/18133417/160222123-fea951f5-0b68-4ad3-b39d-492edd6ae6b4.png">
+
 
 ### Organization logic of received IDs
 As the IDs are received every second, the logic goes like this:

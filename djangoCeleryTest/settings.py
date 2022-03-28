@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '0.0.0.0',
     '127.0.0.1',
     'django-env-2.eba-pmy2vgvf.us-west-2.elasticbeanstalk.com',
+    '18.224.4.202'
 ]
 
 

@@ -24,6 +24,7 @@ router.register(r'users', views.UserViewSet)
 router.register(r'celery_ids_tasks', views.CeleryTaskViewSet)
 
 urlpatterns = [
+    # path('', views.root, name='root'),
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
 ]
